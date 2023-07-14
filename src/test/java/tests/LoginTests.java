@@ -23,6 +23,7 @@ public class LoginTests extends TestBase {
         app.getUser().submitLogin();
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
+
     @Test
     public void loginPositiveTestUser() {
         User user = new User()
@@ -36,9 +37,29 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
 
-    @AfterMethod
-    public void postCondition() {
-        app.getUser().clickOkButton();
+    @Test
+    public void loginWrongPassNegativeTest() {
+        User user = new User().withEmail("liora@gmail.com").withPassword("iora12345");
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLogin();
+        Assert.assertTrue(app.getUser().isLoggedFailed());
+
+
     }
 
+    @Test
+    public void loginWrongEmailNegativeTest() {
+        User user = new User().withEmail("lioragmail.com").withPassword("$Liora12345");
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLogin();
+        Assert.assertTrue(app.getUser().isIncorrectTypeEmailNotification());
+    }
+
+    @AfterMethod
+    public void postCondition() {
+        if (app.getUser().isOkButtonPresent())
+            app.getUser().clickOkButton();
+    }
 }
