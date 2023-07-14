@@ -45,4 +45,14 @@ public class HelperCar extends HelperBase {
         type(By.id("price"),car.getPrice());
 
     }
+    public void submitCarForm(){
+        click(By.xpath("//button[@type='submit']"));
+    }
+
+    public boolean isCarAdded(){
+        new WebDriverWait(wd,10)
+                .until(ExpectedConditions
+                        .visibilityOfElementLocated(By.xpath("//h1[.='Car added']")));
+        return isElementPresent(By.xpath("//h1[.='Car added']"));
+    }
 }

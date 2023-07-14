@@ -15,11 +15,12 @@ public class RegistrationTests extends TestBase{
     public void registrationPositive(){
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
-        User user = new User()
-                .withName("John")
-                .withLastname("Snow")
-                .withEmail("snow"+ i + "@gmail.com")
-                .withPassword("$Asdf1234");
+        User user = User.builder()
+                .name("John")
+                .lastname("Snow")
+                .email("snow"+ i + "@gmail.com")
+                .password("$Asdf1234")
+                .build();
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
     }

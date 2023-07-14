@@ -2,6 +2,7 @@ package tests;
 
 import models.Car;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -15,9 +16,10 @@ public class AddNewCarTests extends TestBase {
     @BeforeMethod
     public void preConditions() {
         if (app.getUser().isLogged() == false)
-            app.getUser().login(new User()
-                    .withEmail("liora@gmail.com")
-                    .withPassword("$Liora12345"));
+            app.getUser().login(User.builder()
+                    .email("liora@gmail.com")
+                    .password("$Liora12345")
+                    .build());
     }
 
     @Test
@@ -35,9 +37,10 @@ public class AddNewCarTests extends TestBase {
                 .carRegNumber("100-200-" + i)
                 .price("500")
                 .build();
-
         app.getCar().openCarForm();
         app.getCar().fillCarForm(car);
+        app.getCar().submitCarForm();
+        Assert.assertTrue(app.getCar().isCarAdded());
 
     }
 
