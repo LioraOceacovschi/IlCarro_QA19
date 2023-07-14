@@ -81,4 +81,19 @@ public class HelperUser extends HelperBase {
         }
         return true;
     }
+
+    public void login(User user){
+        openLoginForm();
+        fillLoginForm(user);
+        submitLogin();
+        clickOkButton();
+    }
+
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"), user.getName());
+        type(By.id("lastName"), user.getLastname());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+        click(By.xpath("//label[@for='terms-of-use']"));
+    }
 }
