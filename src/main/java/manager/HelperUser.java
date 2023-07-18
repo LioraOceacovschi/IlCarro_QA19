@@ -1,10 +1,9 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.TimeoutException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.SendKeysAction;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -37,7 +36,7 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[@id='password']"), user.getPassword());
     }
 
-    public void submitLogin() {
+    public void submitLoginRegForm() {
         click(By.xpath("//button[contains(.,\"alla!\")]"));
     }
 
@@ -74,18 +73,18 @@ public class HelperUser extends HelperBase {
     public boolean isOkButtonPresent() {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         try {
-          WebElement  element = wait.until(ExpectedConditions
-              .visibilityOfElementLocated(By.xpath("//button[.='Ok']")));
+            wait.until(ExpectedConditions
+                    .visibilityOfElementLocated(By.xpath("//button[.='Ok']")));
         } catch (TimeoutException e) {
             return false;
         }
         return true;
     }
 
-    public void login(User user){
+    public void login(User user) {
         openLoginForm();
         fillLoginForm(user);
-        submitLogin();
+        submitLoginRegForm();
         clickOkButton();
     }
 
@@ -94,6 +93,38 @@ public class HelperUser extends HelperBase {
         type(By.id("lastName"), user.getLastname());
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
-        click(By.xpath("//label[@for='terms-of-use']"));
+    }
+
+    public void clickCheckbox() {
+//        Variant1
+        JavascriptExecutor script = (JavascriptExecutor)wd;
+        script.executeScript("document.querySelector('#terms-of-use').click();");
+
+//        Variant2
+//        Actions actions = new Actions(wd);
+//        actions.sendKeys(Keys.PAGE_DOWN).perform();
+//        pause(2000);
+//        WebElement element = new WebDriverWait(wd, 10).until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".checkbox-container")));
+//        element.sendKeys(Keys.TAB);
+//        Rectangle rect = element.getRect();
+//        int x = rect.getX() + 5;
+//        int y = rect.getY() + rect.getHeight() / 2;
+//        actions.moveByOffset(x, y).click().perform();
+
+
+    }
+
+    public boolean isRegisteredSuccess() {
+        WebDriverWait wait = new WebDriverWait(wd, 10);
+        WebElement element = wait.until(ExpectedConditions
+                .visibilityOfElementLocated(By.xpath("//h1[contains(.,'Registered')]")));
+        return element.getText().contains("Registered");
+    }
+
+    public boolean isWrongFormatPasswordMessage() {
+        click(By.xpath("//input[@id='email']"));
+        new WebDriverWait(wd, 10)
+                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'Password must contain')]")));
+        return isElementPresent(By.xpath("//div[contains(text(),'Password must contain')]"));
     }
 }

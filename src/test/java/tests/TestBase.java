@@ -1,12 +1,13 @@
 package tests;
 
 import manager.ApplicationManager;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
-import org.testng.internal.TestResult;
 
 public class TestBase {
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     public static ApplicationManager app = new ApplicationManager();
 

@@ -1,8 +1,7 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperBase {
@@ -17,7 +16,7 @@ public class HelperBase {
     }
     public void type(By locator,String text){
         WebElement element = wd.findElement(locator);
-        element.click();
+//        element.click();
         element.clear();
         element.sendKeys(text);
     }
@@ -34,4 +33,5 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+
 }

@@ -1,7 +1,6 @@
 package tests;
 
 import models.User;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,7 +19,7 @@ public class LoginTests extends TestBase {
     public void loginPositiveTest() {
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm("liora@gmail.com", "$Liora12345");
-        app.getUser().submitLogin();
+        app.getUser().submitLoginRegForm();
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
 
@@ -34,7 +33,7 @@ public class LoginTests extends TestBase {
 //        app.getUser().fillLoginForm("liora@gmail.com", "$Liora12345");
 //        app.getUser().fillLoginForm(user.getEmail(), user.getPassword());
         app.getUser().fillLoginForm(user);
-        app.getUser().submitLogin();
+        app.getUser().submitLoginRegForm();
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
 
@@ -46,7 +45,7 @@ public class LoginTests extends TestBase {
                 .build();
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
-        app.getUser().submitLogin();
+        app.getUser().submitLoginRegForm();
         Assert.assertTrue(app.getUser().isLoggedFailed());
 
 
@@ -60,7 +59,7 @@ public class LoginTests extends TestBase {
                 .build();
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
-        app.getUser().submitLogin();
+        app.getUser().submitLoginRegForm();
         Assert.assertTrue(app.getUser().isIncorrectTypeEmailNotification());
     }
 

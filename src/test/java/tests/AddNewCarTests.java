@@ -7,12 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewCarTests extends TestBase {
-//isLogged?
-    //open form
-    //fill form
-    //atach foto
-    //submit form
-
     @BeforeMethod
     public void preConditions() {
         if (app.getUser().isLogged() == false)
