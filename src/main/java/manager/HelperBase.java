@@ -1,8 +1,12 @@
 package manager;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase {
     WebDriver wd;
@@ -30,6 +34,16 @@ public class HelperBase {
         try {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void takeScreenShot(String link){
+        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+        File screenshot = new File(link);
+        try{
+            Files.copy(tmp,screenshot);
+        }catch (IOException e){
             e.printStackTrace();
         }
     }

@@ -1,0 +1,29 @@
+19:40:40 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTests.registrationPositive()  @@@@@@@@@@@
+19:40:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+19:40:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+19:40:45 INFO  manager.NgListener  Start of the Test  ---->  registrationPositive
+19:40:45 INFO  tests.TestBase  Registration tests starts with data: snow2445@gmail.com & $Asdf1234
+19:40:45 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Sign up ']
+19:40:45 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Sign up ']  is found!!!
+19:40:45 INFO  tests.TestBase  Method openRegistrationForm() invoked
+19:40:45 INFO  manager.MyListener  Start searching element by locator -->   By.id: name
+19:40:45 INFO  manager.MyListener  Element  with locator -->   By.id: name  is found!!!
+19:40:45 INFO  manager.MyListener  Start searching element by locator -->   By.id: lastName
+19:40:45 INFO  manager.MyListener  Element  with locator -->   By.id: lastName  is found!!!
+19:40:45 INFO  manager.MyListener  Start searching element by locator -->   By.id: email
+19:40:45 INFO  manager.MyListener  Element  with locator -->   By.id: email  is found!!!
+19:40:45 INFO  manager.MyListener  Start searching element by locator -->   By.id: password
+19:40:45 INFO  manager.MyListener  Element  with locator -->   By.id: password  is found!!!
+19:40:46 INFO  tests.TestBase  Method fillRegistrationForm() invoked
+19:40:46 INFO  tests.TestBase  Method clickCheckbox() invoked
+19:40:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+19:40:46 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+19:40:46 INFO  tests.TestBase  Method submitLoginRegForm() invoked
+19:40:46 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[contains(.,'Registered')]
+19:40:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[contains(.,'Registered')]  is found!!!
+19:40:47 INFO  manager.NgListener  Success Test  ---->  registrationPositive
+19:40:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+19:40:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+19:40:47 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+19:40:47 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+19:40:47 INFO  tests.TestBase              ######## FINISHED TEST public void tests.RegistrationTests.registrationPositive()  ##########

@@ -1,0 +1,27 @@
+16:34:56 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTests.registrationPositive()  @@@@@@@@@@@
+16:34:56 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+16:35:01 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+16:35:01 INFO  tests.TestBase  Registration tests starts with data: snow2101@gmail.com & $Asdf1234
+16:35:01 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Sign up ']
+16:35:01 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Sign up ']  is found!!!
+16:35:01 INFO  tests.TestBase  Method openRegistrationForm() invoked
+16:35:01 INFO  manager.MyListener  Start searching element by locator -->   By.id: name
+16:35:01 INFO  manager.MyListener  Element  with locator -->   By.id: name  is found!!!
+16:35:01 INFO  manager.MyListener  Start searching element by locator -->   By.id: lastName
+16:35:01 INFO  manager.MyListener  Element  with locator -->   By.id: lastName  is found!!!
+16:35:01 INFO  manager.MyListener  Start searching element by locator -->   By.id: email
+16:35:01 INFO  manager.MyListener  Element  with locator -->   By.id: email  is found!!!
+16:35:01 INFO  manager.MyListener  Start searching element by locator -->   By.id: password
+16:35:01 INFO  manager.MyListener  Element  with locator -->   By.id: password  is found!!!
+16:35:01 INFO  tests.TestBase  Method fillRegistrationForm() invoked
+16:35:01 INFO  tests.TestBase  Method clickCheckbox() invoked
+16:35:01 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+16:35:02 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+16:35:02 INFO  tests.TestBase  Method submitLoginRegForm() invoked
+16:35:02 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[contains(.,'Registered')]
+16:35:03 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[contains(.,'Registered')]  is found!!!
+16:35:03 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+16:35:03 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+16:35:03 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+16:35:03 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+16:35:03 INFO  tests.TestBase              ######## FINISHED TEST public void tests.RegistrationTests.registrationPositive()  ##########
