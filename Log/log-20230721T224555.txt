@@ -1,0 +1,20 @@
+22:45:58 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTest()  @@@@@@@@@@@
+22:46:03 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+22:46:08 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+22:46:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+22:46:08 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+22:46:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+22:46:08 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+22:46:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+22:46:08 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+22:46:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla")]
+22:46:08 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla")]  is found!!!
+22:46:08 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+22:46:09 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+22:46:09 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+22:46:09 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+22:46:09 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+22:46:09 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+22:46:09 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+22:46:09 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+22:46:09 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginPositiveTest()  ##########

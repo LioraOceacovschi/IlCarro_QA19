@@ -30,8 +30,6 @@ public class LoginTests extends TestBase {
                 .password("$Liora12345")
                 .build();
         app.getUser().openLoginForm();
-//        app.getUser().fillLoginForm("liora@gmail.com", "$Liora12345");
-//        app.getUser().fillLoginForm(user.getEmail(), user.getPassword());
         app.getUser().fillLoginForm(user);
         app.getUser().submitLoginRegForm();
         Assert.assertTrue(app.getUser().isLoggedSuccess());
@@ -42,6 +40,19 @@ public class LoginTests extends TestBase {
         User user = User.builder()
                 .email("liora@gmail.com")
                 .password("iora12345")
+                .build();
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLoginRegForm();
+        Assert.assertTrue(app.getUser().isLoggedFailed());
+
+
+    }
+    @Test
+    public void loginWrongPassNegativeTest2() {
+        User user = User.builder()
+                .email("liora@gmail.com")
+                .password("Liora12345")
                 .build();
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
@@ -67,5 +78,7 @@ public class LoginTests extends TestBase {
     public void postCondition() {
         if (app.getUser().isOkButtonPresent())
             app.getUser().clickOkButton();
+
+
     }
 }

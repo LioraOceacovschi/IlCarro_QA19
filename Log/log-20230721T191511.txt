@@ -1,0 +1,88 @@
+19:15:14 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.AddNewCarTests.addNewCarPositive()  @@@@@@@@@@@
+19:15:14 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+19:15:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+19:15:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+19:15:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+19:15:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+19:15:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+19:15:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+19:15:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+19:15:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla")]
+19:15:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla")]  is found!!!
+19:15:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+19:15:22 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+19:15:27 INFO  manager.MyListener  Start searching element by locator -->   By.id: 1
+19:15:27 INFO  manager.MyListener  Element  with locator -->   By.id: 1  is found!!!
+19:15:27 INFO  manager.MyListener  Start searching element by locator -->   By.cssSelector: h1
+19:15:27 INFO  manager.MyListener  Element  with locator -->   By.cssSelector: h1  is found!!!
+19:15:27 INFO  manager.MyListener  Start searching element by locator -->   By.id: pickUpPlace
+19:15:27 INFO  manager.MyListener  Element  with locator -->   By.id: pickUpPlace  is found!!!
+19:15:27 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[@class='pac-item'][position()=1]
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[@class='pac-item'][position()=1]  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: make
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: make  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: model
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: model  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: year
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: year  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: fuel
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: fuel  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: .//option[@value = "Petrol"]
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.xpath: .//option[@value = "Petrol"]  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: seats
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: seats  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: class
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: class  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: serialNumber
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: serialNumber  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.id: price
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.id: price  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[@type='submit']
+19:15:28 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[@type='submit']  is found!!!
+19:15:28 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[.='Car added']
+19:15:29 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[.='Car added']  is found!!!
+19:15:29 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[.='Car added']
+19:15:29 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[.='Car added']  is found!!!
+19:15:29 INFO  tests.TestBase              ######## FINISHED TEST public void tests.AddNewCarTests.addNewCarPositive()  ##########
+19:15:29 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTest()  @@@@@@@@@@@
+19:15:29 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+19:15:29 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+19:15:29 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+19:15:29 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+19:15:34 INFO  manager.MyListener  Something went wrong!!!!!
+19:15:34 INFO  manager.MyListener  element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2979bc6ab19da0a1443bc2786303d74
+19:15:34 INFO  manager.MyListener  element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2979bc6ab19da0a1443bc2786303d74
+19:15:35 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-934.png
+19:15:35 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.RegistrationTests.registrationPositive()  @@@@@@@@@@@
+19:15:35 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+19:15:35 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+19:15:35 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+19:15:35 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+19:15:40 INFO  manager.MyListener  Something went wrong!!!!!
+19:15:40 INFO  manager.MyListener  element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2979bc6ab19da0a1443bc2786303d74
+19:15:40 INFO  manager.MyListener  element not interactable
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2979bc6ab19da0a1443bc2786303d74
+19:15:40 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-940.png

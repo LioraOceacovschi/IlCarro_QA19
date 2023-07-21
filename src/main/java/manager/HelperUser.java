@@ -19,6 +19,7 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean isLogged() {
+        pause(2000);
         return isElementPresent(By.xpath("//a[.=' Logout ']"));
     }
 
@@ -37,7 +38,7 @@ public class HelperUser extends HelperBase {
     }
 
     public void submitLoginRegForm() {
-        click(By.xpath("//button[contains(.,\"alla!\")]"));
+        click(By.xpath("//button[contains(.,\"alla\")]"));
     }
 
     public void clickOkButton() {
@@ -51,17 +52,15 @@ public class HelperUser extends HelperBase {
     public boolean isLoggedSuccess() {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions
-                .visibilityOfElementLocated(By.xpath("//h2[contains(.,'success')]")));
-        return wd.findElement(By.xpath("//h2[contains(.,'success')]"))
-                .getText().contains("success");
+                .visibilityOfElementLocated(By.xpath("//h2[.='Logged in success']")));
+        return isElementPresent(By.xpath("//h2[.='Logged in success']"));
     }
 
     public boolean isLoggedFailed() {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions
                 .visibilityOfElementLocated(By.xpath("//h1[.='Login failed']")));
-        return wd.findElement(By.xpath("//h1[.='Login failed']")).getText()
-                .contains("failed");
+        return isElementPresent(By.xpath("//h1[.='Login failed']"));
     }
 
     public boolean isIncorrectTypeEmailNotification() {

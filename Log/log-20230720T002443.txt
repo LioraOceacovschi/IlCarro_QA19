@@ -1,0 +1,192 @@
+00:24:48 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTest()  @@@@@@@@@@@
+00:24:48 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:24:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:24:53 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:24:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:24:53 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:24:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:24:53 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:24:53 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:24:54 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:24:54 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:24:54 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:24:55 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginPositiveTest()  ##########
+00:24:55 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTestUser()  @@@@@@@@@@@
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:24:55 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:24:55 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:24:56 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:24:56 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:24:56 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:24:56 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:24:56 INFO  manager.MyListener  Something went wrong!!!!!
+00:24:56 INFO  manager.MyListener  stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+00:24:56 INFO  manager.MyListener  stale element reference: stale element not found
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+00:24:57 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1496.png
+00:24:57 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:02 INFO  manager.MyListener  Something went wrong!!!!!
+00:25:02 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:02 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:03 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1502.png
+00:25:03 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:08 INFO  manager.MyListener  Something went wrong!!!!!
+00:25:08 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:08 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:09 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1508.png
+00:25:09 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginPositiveTestUser()  ##########
+00:25:09 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginWrongEmailNegativeTest()  @@@@@@@@@@@
+00:25:09 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:25:14 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:25:14 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:25:14 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:25:14 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:25:14 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:25:14 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:25:14 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:25:15 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:25:15 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:25:15 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[contains(text(),"It'snot look like email")]
+00:25:15 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[contains(text(),"It'snot look like email")]  is found!!!
+00:25:15 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //div[contains(text(),"It'snot look like email")]
+00:25:15 INFO  manager.MyListener  Element  with locator -->   By.xpath: //div[contains(text(),"It'snot look like email")]  is found!!!
+00:25:15 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:20 INFO  manager.MyListener  Something went wrong!!!!!
+00:25:20 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:20 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:21 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1520.png
+00:25:21 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:26 INFO  manager.MyListener  Something went wrong!!!!!
+00:25:26 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:26 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Ok']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55538}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bf2473e6c117fe099c6d06a4bfc9ef36
+*** Element info: {Using=xpath, value=//button[.='Ok']}
+00:25:27 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1526.png
+00:25:27 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginWrongEmailNegativeTest()  ##########
+00:25:27 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginWrongPassNegativeTest()  @@@@@@@@@@@
+00:25:27 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:25:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:25:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:25:32 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:25:32 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:25:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:25:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:25:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:25:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:25:33 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:25:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[.='Login failed']
+00:25:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[.='Login failed']  is found!!!
+00:25:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[.='Login failed']
+00:25:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[.='Login failed']  is found!!!
+00:25:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:25:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:34 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:25:34 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginWrongPassNegativeTest()  ##########
+00:25:34 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginWrongPassNegativeTest2()  @@@@@@@@@@@
+00:25:34 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:25:39 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:25:39 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:25:39 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:25:39 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:25:39 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:25:39 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:25:39 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:25:39 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:25:40 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:25:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[.='Login failed']
+00:25:40 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[.='Login failed']  is found!!!
+00:25:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h1[.='Login failed']
+00:25:40 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h1[.='Login failed']  is found!!!
+00:25:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:40 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:25:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:25:40 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:25:40 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginWrongPassNegativeTest2()  ##########

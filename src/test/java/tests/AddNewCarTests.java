@@ -3,13 +3,14 @@ package tests;
 import models.Car;
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewCarTests extends TestBase {
     @BeforeMethod
     public void preConditions() {
-        if (app.getUser().isLogged() == false)
+        if (!app.getUser().isLogged())
             app.getUser().login(User.builder()
                     .email("liora@gmail.com")
                     .password("$Liora12345")
@@ -36,6 +37,11 @@ public class AddNewCarTests extends TestBase {
         app.getCar().submitCarForm();
         Assert.assertTrue(app.getCar().isCarAdded());
 
+    }
+
+    @AfterMethod
+    public void postCondition(){
+        app.getCar().clickAddAnotherCarButton();
     }
 
 }

@@ -58,4 +58,8 @@ public class HelperCar extends HelperBase {
                         .visibilityOfElementLocated(By.xpath("//h1[.='Car added']")));
         return isElementPresent(By.xpath("//h1[.='Car added']"));
     }
+
+    public void clickAddAnotherCarButton() {
+        click(By.xpath("//button[.='Add another car']"));
+    }
 }

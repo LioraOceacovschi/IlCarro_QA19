@@ -1,0 +1,5 @@
+22:44:04 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTest()  @@@@@@@@@@@
+22:44:04 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+22:44:09 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+22:44:09 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+22:44:14 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!

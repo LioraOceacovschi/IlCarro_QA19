@@ -1,0 +1,119 @@
+00:19:12 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTest()  @@@@@@@@@@@
+00:19:12 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:19:17 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:19:17 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:19:17 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:19:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:19:18 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:19:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:19:18 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:19:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:19:18 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:19:18 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+00:19:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:19 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+00:19:19 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //h2[.='Logged in success']  is found!!!
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[.='Ok']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[.='Ok']  is found!!!
+00:19:20 INFO  tests.TestBase              ######## FINISHED TEST public void tests.LoginTests.loginPositiveTest()  ##########
+00:19:20 INFO  tests.TestBase              @@@@@@@@@ START TEST public void tests.LoginTests.loginPositiveTestUser()  @@@@@@@@@@@
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[.=' Logout ']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[.=' Logout ']  is found!!!
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //a[text()=' Log in ']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //a[text()=' Log in ']  is found!!!
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='email']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='email']  is found!!!
+00:19:20 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //input[@id='password']
+00:19:20 INFO  manager.MyListener  Element  with locator -->   By.xpath: //input[@id='password']  is found!!!
+00:19:21 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //button[contains(.,"alla!")]
+00:19:21 INFO  manager.MyListener  Element  with locator -->   By.xpath: //button[contains(.,"alla!")]  is found!!!
+00:19:21 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:26 INFO  manager.MyListener  Something went wrong!!!!!
+00:19:26 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:26 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:27 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1166.png
+00:19:28 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:33 INFO  manager.MyListener  Something went wrong!!!!!
+00:19:33 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:33 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:33 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1173.png
+00:19:33 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:38 INFO  manager.MyListener  Something went wrong!!!!!
+00:19:38 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:38 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:39 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1178.png
+00:19:40 INFO  manager.MyListener  Start searching element by locator -->   By.xpath: //h2[.='Logged in success']
+00:19:45 INFO  manager.MyListener  Something went wrong!!!!!
+00:19:45 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:45 INFO  manager.MyListener  no such element: Unable to locate element: {"method":"xpath","selector":"//h2[.='Logged in success']"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-QKHLCVKT', ip: '192.168.88.114', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\Liora\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 63ab69e33d91309e6a530c24db8c3cad
+*** Element info: {Using=xpath, value=//h2[.='Logged in success']}
+00:19:46 INFO  manager.MyListener  This is a link to screenshot with error:  src/test/screenshots/screenshot-1185.png

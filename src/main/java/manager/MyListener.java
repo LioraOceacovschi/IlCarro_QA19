@@ -26,6 +26,7 @@ Logger logger = LoggerFactory.getLogger(MyListener.class);
 
     }
 
+
     @Override
     public void onException(Throwable throwable, WebDriver driver) {
         int i = (int)(System.currentTimeMillis()/1000)%3600;
