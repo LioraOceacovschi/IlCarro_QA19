@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions() {
         if (app.getUser().isLogged()) {
             app.getUser().logOut();
         }
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginPositiveTest() {
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm("liora@gmail.com", "$Liora12345");
@@ -29,18 +29,21 @@ public class LoginTests extends TestBase {
                 .email("liora@gmail.com")
                 .password("$Liora12345")
                 .build();
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
+
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLoginRegForm();
         Assert.assertTrue(app.getUser().isLoggedSuccess());
     }
 
-    @Test
+    @Test(groups = {"sanity","smoke"})
     public void loginWrongPassNegativeTest() {
         User user = User.builder()
                 .email("liora@gmail.com")
                 .password("iora12345")
                 .build();
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLoginRegForm();
@@ -54,6 +57,7 @@ public class LoginTests extends TestBase {
                 .email("liora@gmail.com")
                 .password("Liora12345")
                 .build();
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLoginRegForm();
@@ -74,7 +78,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getUser().isIncorrectTypeEmailNotification());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         if (app.getUser().isOkButtonPresent())
             app.getUser().clickOkButton();

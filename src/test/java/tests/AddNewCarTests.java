@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewCarTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions() {
         if (!app.getUser().isLogged())
             app.getUser().login(User.builder()
@@ -17,7 +17,7 @@ public class AddNewCarTests extends TestBase {
                     .build());
     }
 
-    @Test
+    @Test(groups = {"sanity","smoke"})
     public void addNewCarPositive() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
 
@@ -39,7 +39,7 @@ public class AddNewCarTests extends TestBase {
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition(){
         app.getCar().clickAddAnotherCarButton();
     }

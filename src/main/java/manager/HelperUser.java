@@ -73,7 +73,7 @@ public class HelperUser extends HelperBase {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         try {
             wait.until(ExpectedConditions
-                    .visibilityOfElementLocated(By.xpath("//button[.='Ok']")));
+                    .visibilityOfElementLocated(By.xpath("//button[contains(.,'Ok')]")));
         } catch (TimeoutException e) {
             return false;
         }
