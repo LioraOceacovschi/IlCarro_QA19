@@ -1,6 +1,7 @@
 package tests;
 
 import manager.NgListener;
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -29,6 +30,17 @@ public class RegistrationTests extends TestBase {
                 .password("$Asdf1234")
                 .build();
         logger.info("REGISTRATION TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
+        app.getUser().openRegistrationForm();
+        app.getUser().fillRegistrationForm(user);
+        app.getUser().clickCheckbox();
+        app.getUser().submitLoginRegForm();
+        Assert.assertTrue(app.getUser().isRegisteredSuccess());
+    }
+
+
+    @Test(dataProvider = "regUserModelDTO",dataProviderClass = ProviderData.class)
+    public void registrationPositiveDTO(User user) {
+        logger.info("REGISTRATION TEST STARTS WITH DATA: " +user.toString());
         app.getUser().openRegistrationForm();
         app.getUser().fillRegistrationForm(user);
         app.getUser().clickCheckbox();

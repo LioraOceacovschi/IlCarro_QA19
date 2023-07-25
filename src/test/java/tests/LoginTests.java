@@ -1,5 +1,6 @@
 package tests;
 
+import manager.ProviderData;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -31,6 +32,22 @@ public class LoginTests extends TestBase {
                 .build();
         logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
 
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLoginRegForm();
+        Assert.assertTrue(app.getUser().isLoggedSuccess());
+    }
+    @Test(dataProvider = "userModelListDTO",dataProviderClass = ProviderData.class)
+    public void loginPositiveUserDTO(User user) {
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
+        app.getUser().openLoginForm();
+        app.getUser().fillLoginForm(user);
+        app.getUser().submitLoginRegForm();
+        Assert.assertTrue(app.getUser().isLoggedSuccess());
+    }
+    @Test(dataProvider = "loginUserModelDTO_CSV",dataProviderClass = ProviderData.class)
+    public void loginPositiveUserDTO_CSV(User user) {
+        logger.info("LOGIN TEST STARTS WITH DATA: " + user.getEmail() + " & " + user.getPassword());
         app.getUser().openLoginForm();
         app.getUser().fillLoginForm(user);
         app.getUser().submitLoginRegForm();
