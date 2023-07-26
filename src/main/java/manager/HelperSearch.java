@@ -1,7 +1,7 @@
 package manager;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 
 import javax.swing.text.DateFormatter;
 import java.time.LocalDate;
@@ -32,8 +32,10 @@ public class HelperSearch extends HelperBase {
 
     public void fillSearchFormByDatePickerWithPeriodDays(String city, String dateFrom, String dateTo) {
         fillCity(city);
+        pause(3000);
         selectPeriodByDatePickerWithPeriodDays(dateFrom, dateTo);
     }
+
 
     public void selectPeriodByDatePickerWithPeriodDays(String dateFrom, String dateTo) {
         String[] startDate = dateFrom.split("/");
@@ -52,7 +54,20 @@ public class HelperSearch extends HelperBase {
 
     public void fillSearchFormByDatePickerWithPeriodDaysAndMonth(String city, String dateFrom, String dateTo) {
         fillCity(city);
+        pause(3000);
         selectPeriodByDatePickerWithPeriodDaysAndMonth(dateFrom, dateTo);
+    }
+
+    public void clearSearchForm() {
+        wd.findElement(By.id("city")).clear();
+        pause(2000);
+        WebElement element = wd.findElement(By.id("dates"));
+        Actions actions = new Actions(wd);
+        actions.doubleClick(element).build().perform();
+        pause(2000);
+        actions.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.BACK_SPACE).perform();
+        pause(2000);
+
     }
 
     public void selectPeriodByDatePickerWithPeriodDaysAndMonth(String dateFrom, String dateTo) {
@@ -100,6 +115,8 @@ public class HelperSearch extends HelperBase {
 
     public void fillSearchFormByDatePickerWithPeriodDaysMonthAndYear(String city, String dateFrom, String dateTo) {
         fillCity(city);
+        WebElement dates = wd.findElement(By.id("dates"));
+        dates.clear();
         selectPeriodByDatePickerWithPeriodDaysMonthAndYear(dateFrom, dateTo);
     }
 

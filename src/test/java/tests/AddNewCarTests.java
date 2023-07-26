@@ -10,6 +10,8 @@ import org.testng.annotations.Test;
 public class AddNewCarTests extends TestBase {
     @BeforeMethod(alwaysRun = true)
     public void preConditions() {
+        app.getUser().clickOnLogoInHeader();
+
         if (!app.getUser().isLogged())
             app.getUser().login(User.builder()
                     .email("liora@gmail.com")

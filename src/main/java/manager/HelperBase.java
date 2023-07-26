@@ -18,22 +18,24 @@ public class HelperBase {
         this.wd = wd;
     }
 
-    public void click(By locator){
+    public void click(By locator) {
         wd.findElement(locator).click();
     }
-    public void type(By locator,String text){
+
+    public void type(By locator, String text) {
         WebElement element = wd.findElement(locator);
 //        element.click();
         element.clear();
         element.sendKeys(text);
     }
 
-    public boolean isElementPresent(By locator){
-        return wd.findElements(locator).size()>0;
+
+    public boolean isElementPresent(By locator) {
+        return wd.findElements(locator).size() > 0;
     }
 
 
-    public void pause(int millis){
+    public void pause(int millis) {
         try {
             Thread.sleep(millis);
         } catch (InterruptedException e) {
@@ -41,14 +43,21 @@ public class HelperBase {
         }
     }
 
-    public void takeScreenShot(String link){
-        File tmp = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
+    public void takeScreenShot(String link) {
+        File tmp = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
         File screenshot = new File(link);
-        try{
-            Files.copy(tmp,screenshot);
-        }catch (IOException e){
+        try {
+            Files.copy(tmp, screenshot);
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+    public void clickOnLogoInHeader() {
+        new WebDriverWait(wd, 10).until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.xpath("(//a[@class='logo'])[1]")));
+        click(By.xpath("(//a[@class='logo'])[1]"));
+    }
+
+
 
 }

@@ -11,6 +11,8 @@ public class LoginTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void preConditions() {
+        app.getUser().clickOnLogoInHeader();
+
         if (app.getUser().isLogged()) {
             app.getUser().logOut();
         }
