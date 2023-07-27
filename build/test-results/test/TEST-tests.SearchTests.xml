@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.SearchTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-07-26T18:42:14" hostname="LAPTOP-QKHLCVKT" time="90.198">
+  <properties/>
+  <testcase name="searchCarPositiveTest" classname="tests.SearchTests" time="12.633"/>
+  <testcase name="searchCarPositiveTestDatePickerDate" classname="tests.SearchTests" time="17.626"/>
+  <testcase name="searchCarPositiveTestDatePickerMonthDays" classname="tests.SearchTests" time="14.684"/>
+  <testcase name="searchCarPositiveTestDatePickerMonthDaysYear" classname="tests.SearchTests" time="24.778"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

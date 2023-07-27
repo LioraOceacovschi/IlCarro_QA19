@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.AddNewCarTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-22T19:11:50" hostname="LAPTOP-QKHLCVKT" time="7.603">
+  <properties/>
+  <testcase name="addNewCarPositive" classname="tests.AddNewCarTests" time="7.603"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1690053117042	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:180:31
+]]></system-err>
+</testsuite>

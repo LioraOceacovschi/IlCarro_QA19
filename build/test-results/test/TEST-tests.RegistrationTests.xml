@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-07-26T18:41:47" hostname="LAPTOP-QKHLCVKT" time="8.808">
+  <properties/>
+  <testcase name="registrationPositive" classname="tests.RegistrationTests" time="1.11"/>
+  <testcase name="registrationPositiveDTO[0](User(name=John, lastname=Snow, email=snow2508@gmail.com, password=$Asdf1234))" classname="tests.RegistrationTests" time="0.937"/>
+  <testcase name="registrationWrongPasswordNegavite" classname="tests.RegistrationTests" time="0.647"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

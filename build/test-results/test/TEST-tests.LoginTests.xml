@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2023-07-26T18:40:40" hostname="LAPTOP-QKHLCVKT" time="59.935">
+  <properties/>
+  <testcase name="loginPositiveTest" classname="tests.LoginTests" time="0.634"/>
+  <testcase name="loginPositiveTestUser" classname="tests.LoginTests" time="0.642"/>
+  <testcase name="loginPositiveUserDTO[0](User(name=null, lastname=null, email=liora@gmail.com, password=$Liora12345))" classname="tests.LoginTests" time="1.054"/>
+  <testcase name="loginPositiveUserDTO[1](User(name=null, lastname=null, email=liora@gmail.com, password=$Liora12345))" classname="tests.LoginTests" time="0.62"/>
+  <testcase name="loginPositiveUserDTO[2](User(name=null, lastname=null, email=liora@gmail.com, password=$Liora12345))" classname="tests.LoginTests" time="0.714"/>
+  <testcase name="loginPositiveUserDTO_CSV[0](User(name=null, lastname=null, email=snow5@gmail.com, password=$Asdf1234))" classname="tests.LoginTests" time="0.646"/>
+  <testcase name="loginPositiveUserDTO_CSV[1](User(name=null, lastname=null, email=snow1@gmail.com, password=$Asdf1235))" classname="tests.LoginTests" time="0.718"/>
+  <testcase name="loginPositiveUserDTO_CSV[2](User(name=null, lastname=null, email=snow2@gmail.com, password=$Asdf1236))" classname="tests.LoginTests" time="0.634"/>
+  <testcase name="loginPositiveUserDTO_CSV[3](User(name=null, lastname=null, email=snow3@gmail.com, password=$Asdf1237))" classname="tests.LoginTests" time="0.632"/>
+  <testcase name="loginPositiveUserDTO_CSV[4](User(name=null, lastname=null, email=snow4@gmail.com, password=$Asdf1238))" classname="tests.LoginTests" time="0.616"/>
+  <testcase name="loginWrongEmailNegativeTest" classname="tests.LoginTests" time="0.339"/>
+  <testcase name="loginWrongPassNegativeTest" classname="tests.LoginTests" time="0.878"/>
+  <testcase name="loginWrongPassNegativeTest2" classname="tests.LoginTests" time="0.831"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
